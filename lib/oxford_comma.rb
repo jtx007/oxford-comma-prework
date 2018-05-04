@@ -7,6 +7,10 @@ elsif array.length == 2
   last =  array.pop
   array << "and #{last}"
   array.join(", ")
+elsif array.length > 3
+  last = array.pop
+  array << "and #{last}"
+  array.join(", ")
   
   
 end
